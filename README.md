@@ -1,15 +1,15 @@
-# Save Duffy 🐶✨  
+# Save Duffy 
 *A retro-style SDL2 word-guessing game where you must save the dog by guessing the correct word!*
 
 ---
 
-## 🎮 Overview  
+## Overview  
 **Save Duffy** is a pixel-art mini-game written in **C (C11)** using **SDL2**, **SDL2_image**, and **SDL2_ttf**.
 
 You must guess the hidden word using the alphabet keys.  
 Every wrong guess reduces a heart.  
-If hearts reach zero… the dog dies ☠️🐶  
-Guess correctly, and you *save* him ❤️
+If hearts reach zero… the dog dies 
+Guess correctly, and you *save* him
 
 The game includes:
 
@@ -22,20 +22,14 @@ The game includes:
 
 ---
 
-## 🐕 Game Preview  
-*(Add your screenshots inside `assets/screenshots/` and update paths below)*
+## Game Preview  
 
-| Idle Animation | Tail Animation |
-|----------------|----------------|
-| ![Idle](assets/screenshots/idle.png) | ![Tail](assets/screenshots/tail.png) |
-
-| Run Animation | Death Animation |
-|---------------|-----------------|
-| ![Run](assets/screenshots/run.png) | ![Death](assets/screenshots/death.png) |
+| ![Idle](assets/image1.png) | <br>
+| ![Run](assets/image2.png) |
 
 ---
 
-## 🧩 Gameplay  
+## Gameplay  
 - Press **SPACE** to start  
 - Press **A–Z** to guess letters  
 - View **hint** from the right panel  
@@ -46,7 +40,7 @@ The game includes:
 
 ---
 
-## 🛠️ Tech Stack  
+## Tech Stack  
 | Component | Library |
 |----------|----------|
 | Rendering | SDL2 |
@@ -57,7 +51,7 @@ The game includes:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 Save-Duffy/ <br>
 │ <br>
 ├── assets/ <br>
@@ -70,11 +64,8 @@ Save-Duffy/ <br>
 │ │ ├── heart_full.png <br>
 │ │ └── heart_empty.png <br>
 │ ├── font.ttf <br>
-│ └── screenshots/ <br>
-│ ├── idle.png <br>
-│ ├── tail.png <br>
-│ ├── run.png <br>
-│ └── death.png <br>
+│ ├── image1.png <br>
+│ ├── image2.png <br>
 │ <br>
 ├── src/ <br>
 │ └── main.c <br>
@@ -83,15 +74,15 @@ Save-Duffy/ <br>
 ├── README.md <br>
 └── LICENSE <br>
 
-## 🚀 Features
-- 🌟 Retro 90’s pixel-animation aesthetic
-- ✨ Automatic animation switching (idle → tail → run)
-- 💓 Heart-based life UI
-- 🧠 Word hints for accessibility
-- 🎯 Keyboard-only gameplay
-- 🔤 Wrapped text rendering with SDL2_ttf
+## Features
+-  Retro 90’s pixel-animation aesthetic
+-  Automatic animation switching (idle → tail → run)
+-  Heart-based life UI
+-  Word hints for accessibility
+-  Keyboard-only gameplay
+-  Wrapped text rendering with SDL2_ttf
 
-## 📌 Future Improvements
+## Future Improvements
 - Sound effects
 - Background music
 - Difficulty levels
